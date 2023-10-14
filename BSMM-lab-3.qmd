@@ -30,18 +30,22 @@ View(boston_cocktails)
 ```
 
 ```{r}
+install.packages("magrittr")
 library(magrittr)   
 ```
 
 ```{r}
-library(magrittr)   
+install.packages("tidyverse")
+library(tidyverse)   
 ```
 
 ```{r}
+install.packages("tidymodels")
 library(tidymodels)
 ```
 
 ```{r}
+install.packages("gt")
 library(gt)
 ```
 
@@ -79,6 +83,7 @@ View(pivoted_table)
 
 ```{r}
 #install.packages("janitor")
+install.packages("janitor")
 library(janitor)
 ```
 
